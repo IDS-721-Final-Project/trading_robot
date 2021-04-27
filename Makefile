@@ -1,5 +1,6 @@
-install:
-	pip install -r requirements.txt
+all:
+	install:
+		pip install -r requirements.txt
 
-run:
-	python3 predict.py
+	run:
+		python3 predict.py
