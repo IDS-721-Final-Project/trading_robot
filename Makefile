@@ -1,6 +1,8 @@
-all:
-	install:
-		pip install -r requirements.txt
+install:
+	pip install -r requirements.txt
 
-	run:
-		python3 predict.py
+run:
+	python3 predict.py
+
+docker-run:
+	docker build .
