@@ -1,0 +1,6 @@
+pandas
+yfinance
+yahoofinancials
+click
+datetime
+requests
