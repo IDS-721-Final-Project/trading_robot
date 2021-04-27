@@ -1,5 +1,7 @@
 # trading_robot
 
 ```bash
-make install && make run
+python3 -m venv ~/.venv
+
+make all
 ```
