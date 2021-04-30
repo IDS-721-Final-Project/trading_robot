@@ -26,7 +26,7 @@ def test():
               help='The stock you want to check.')
 def show_data(name):
     today = date.today()
-    dta = timedelta(days=20)
+    dta = timedelta(days=20) ### You can specify the time duration that you want to grab
     prev = today - dta
     d1 = today.strftime("%Y-%m-%d")
     d2 = prev.strftime("%Y-%m-%d") 
