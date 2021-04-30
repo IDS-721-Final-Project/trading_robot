@@ -1,17 +1,21 @@
 # trading_robot
 
-[](https://www.google.com)
+[<< Previous: Backend service deployment](https://github.com/IDS-721-Final-Project/flask-ml)
 
-## 1. Make Predictions with Real Time Data
+Congratulations! After you deploy the `flask-ml` backend logic on Kubernetes, you can let the trading robot do prediction and trade for you here. 
 
- ```bash
- python3 predict.py --name=TWTR
- ```
+## 1. Create a virtual environment
 
 ```bash
 python3 -m venv ~/.venv
 
 source ~/.venv/bin/activate
 
-make
+make install
 ```
+
+## 2. Make Predictions with Real Time Data
+
+ ```bash
+ python3 predict.py --name=TWTR
+ ```
