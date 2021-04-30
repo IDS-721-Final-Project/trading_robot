@@ -1,4 +1,4 @@
-all: install run docker-run
+all: install run
 
 install:
 	pip install -r requirements.txt
