@@ -22,7 +22,7 @@ def test():
         print(requested)
 
 @click.command()
-@click.option('--name', prompt='Enter Stock Name',
+@click.option('--name', prompt='Enter Stock Name (e.g., AMZN, TSLA)',
               help='The stock you want to check.')
 def show_data(name):
     today = date.today()
