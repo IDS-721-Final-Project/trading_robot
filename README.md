@@ -19,3 +19,8 @@ make install
  ```bash
  python3 predict.py --name=TWTR
  ```
+ or
+ ```bash
+ make run
+ ```
+There you go. You will be returned the trading actions that the robot took like this:
