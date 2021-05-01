@@ -26,7 +26,7 @@ make install
 There you go. You will be returned the trading actions that the robot took like this:
 ![image](https://user-images.githubusercontent.com/37522943/116767343-9665b500-a9fd-11eb-8eb8-94640cf36485.png)
 
-(Optional) You can also further pack the service into a docker:
+***(Optional)*** You can also further pack the service into a docker:
 ```bash
 make docker-run
 ```
